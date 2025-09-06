@@ -1,23 +1,21 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
 
-<img src="source/shinsanwaswitchlogo.svg" align="right" alt="shinsanwaswitchlogo" />
-
-# SHINSANWASWITCH
+# KINSANWASWITCH
 
 DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm Chinese arcade buttons. Enables an OBSA-LHSXF+OBSA-100UMQ-like setup at low cost with generic parts.
 
 ## Updates
-- This is branch of beta-version SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two branches: *main* with stable version 1.0 and version1.1 in *beta* . If you want corrently stable version - use *main* branch. 
-Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to make different variants of PCB to make with possibility to make one-layered-board at home (if you have anought skill). More info here:  https://www.projectdiva.net/community/threads/shinsanwaswitch-blog-of-creating-diy-analog-of-obsa-lhsxf-ln.2325/page-2#post-18644
+- This is branch of beta-version SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two branches: *main* with stable version 1.0 and version1.1 in *beta* . If you want currently stable version - use *main* branch. 
+Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to make different variants of PCB to make with possibility to make one-layered-board at home (if you have enough skill). More info here:  https://www.projectdiva.net/community/threads/shinsanwaswitch-blog-of-creating-diy-analog-of-obsa-lhsxf-ln.2325/page-2#post-18644
 
 ## Parts list
 
 ### Electrical
-Detais about PCB and it's variants can be found in [readme in shinsanwaswitch_PCB thread](shinsanwaswitch_PCB/README.md)
+Details about PCB and it's variants can be found in [readme in pcb thread](pcb/README.md)
 
-- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-12455-g28bd734313), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
+- PCB: 1x `PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-12455-g28bd734313), release build required for exporting Gerber files or take Gerber files archive in `gerber/shinsanwaswitch.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
-  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](https://github.com/steelpuxnastik/SHINSANWASWITCH/tree/version1.1/shinsanwaswitch_PCB#some-nuances-of-board-assembly) for more ditails)
+  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](https://github.com/steelpuxnastik/SHINSANWASWITCH/tree/version1.1/pcb#some-nuances-of-board-assembly) for more ditails)
   - STI1: `NSI45020AT1G` (for standard and one-layered-board with LED driver board versions) or R4: 470ohm 5% 1/4W through hole (for one-layered-board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
   - J1: `S5B-PH-K-S` or equivalent.
   - LED: `S2B-PH-K-S` or equivalent.
@@ -37,7 +35,7 @@ Detais about PCB and it's variants can be found in [readme in shinsanwaswitch_PC
   
 ### Pin mapping
 
-<img src="source/board.webp" align="right" alt="board" width="40%" height="40%" />
+<img src="docs/board.webp" align="right" alt="board" width="40%" height="40%" />
 
 I/O port (from up to down):
 
