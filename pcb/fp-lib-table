@@ -1,3 +1,4 @@
 (fp_lib_table
+  (version 7)
   (lib (name "RPI-221")(type "KiCad")(uri "${KIPRJMOD}/RPI-221.pretty")(options "")(descr ""))
 )

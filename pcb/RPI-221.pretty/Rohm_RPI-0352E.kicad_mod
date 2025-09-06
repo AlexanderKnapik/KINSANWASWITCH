@@ -1,0 +1,198 @@
+(footprint "Rohm_RPI-0352E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "Photointerrupter")
+	(property "Reference" "REF**"
+		(at 0 -3.125 0)
+		(layer "F.SilkS")
+		(uuid "8d0ab6f1-b52c-4053-8fe0-6dc89a02efec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Rohm_RPI-0352E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "21ffb69d-91c2-4acf-8df6-6018c945438f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/photointerrupter/rpi-0352e.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef79c5a-11c2-4909-b76e-55feb7043c4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Photointerrupter 6.4x4.2mm 3mm gap"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "928ab3db-c935-4094-b7ba-f6215db0800b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.225 -1.325)
+		(end -3.425 -2.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d14eeb42-8271-492d-a5e4-de820ee4d93c")
+	)
+	(fp_line
+		(start -4.225 2.125)
+		(end -4.225 -1.325)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b3057448-f74a-4743-a0c8-759332e39759")
+	)
+	(fp_line
+		(start -3.425 -2.125)
+		(end 4.225 -2.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4263b340-2c7c-463a-b238-49af8b6f524e")
+	)
+	(fp_line
+		(start 4.225 -2.125)
+		(end 4.225 2.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f64fa06a-1006-4f23-b35e-2324e45249d0")
+	)
+	(fp_line
+		(start 4.225 2.125)
+		(end -4.225 2.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13c27899-e579-4f1b-912a-fef44e28d032")
+	)
+	(fp_line
+		(start -3.98 -1.88)
+		(end 3.98 -1.88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2765dcbd-e3e1-4578-86df-dd29383d75e5")
+	)
+	(fp_line
+		(start -3.98 1.88)
+		(end -3.98 -1.88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7b20cbe-f573-4267-99bb-fbf78568c0fc")
+	)
+	(fp_line
+		(start 3.98 -1.88)
+		(end 3.98 1.88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "41a86f6b-08de-47fb-a2a4-3c3342ac4685")
+	)
+	(fp_line
+		(start 3.98 1.88)
+		(end -3.98 1.88)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "72a0dfc0-e397-41ec-b15a-80f9ecc124ea")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.25)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3cf584a2-8138-4108-b49f-56d3de63d466")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.25)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fec32b60-2496-4c67-8751-f321a6639a9c")
+	)
+	(pad "1" smd rect
+		(at -2.725 -1.25 270)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a60d0bb5-95e4-40b6-b81c-8ce16253f030")
+	)
+	(pad "2" smd rect
+		(at -2.725 1.25 270)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "592111a5-85f4-4446-a69f-f43bc0597e7f")
+	)
+	(pad "3" smd rect
+		(at 2.725 1.25 270)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c9b9fc66-7805-4612-88fa-1c985eb2b6d8")
+	)
+	(pad "4" smd rect
+		(at 2.725 -1.25 270)
+		(size 0.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "87a2cd2e-85c9-411b-8173-900e58872051")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/RPI-0352E.STEP"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
