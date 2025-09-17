@@ -512,7 +512,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Desktop/shinsanwaswitch_bd5.STEP",
+      "step": "../mech/kinsanwaswitch.step",
       "svg": "",
       "vmrl": "",
       "vrml": ""
