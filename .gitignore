@@ -45,4 +45,7 @@ bom/
 # Gerber export output
 out/
 
+# FreeCAD
+*.FCBak
+
 # End of https://www.toptal.com/developers/gitignore/api/kicad
